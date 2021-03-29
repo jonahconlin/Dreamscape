@@ -1,0 +1,4940 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project Title</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+ <link rel="stylesheet" href="https://use.typekit.net/hla6kpq.css">
+
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    
+    
+    
+ <link href='https://css.gg/chevron-left.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://tympanus.net/Development/Arctext/js/jquery.arctext.js"></script>
+	<link rel="stylesheet" href="style.css"/>
+  	<script src="main.js"></script> 
+  	<script src="jquery.transit.min.js"></script>
+</head>
+ 
+ <video id="vid" width="1400" autoplay="autoplay" muted>
+  <source src="intro.mp4" type="video/mp4">
+</video>
+ 
+
+<div class="menu-container">
+<div class="menu-text">
+
+<div class="txt-line txt-line-1">
+	<div class="txt txt-1">WHAT</div><div class="txt txt-2">ARE</div><div class="txt txt-3">THE</div>
+	<br>
+</div>	
+
+<div class="txt-line txt-line-2">	
+	<div class="txt txt-4">MOST</div><div class="txt txt-5">CRITICAL</div>
+	<br>
+</div>
+
+<div class="txt-line txt-line-3">					
+	<div class="txt txt-6">ISSUES</div><div class="txt txt-7">IN</div> 
+	<br>
+</div>	
+
+<div class="txt-line txt-line-4">		
+	<div class="txt txt-8">DESIGN?</div>
+</div>
+
+</div> 
+</div>
+
+<!--
+<div class="menu-container-2">
+<div class="menu-text-2">
+
+<div class="txt-line txt-line-1">
+	<div class="txt txt-1">WHAT</div><div class="txt txt-2">ARE</div><div class="txt txt-3">THE</div>
+	<br>
+</div>	
+
+<div class="txt-line txt-line-2">	
+	<div class="txt txt-4">MOST</div><div class="txt txt-5">CRITICAL</div>
+	<br>
+</div>
+
+<div class="txt-line txt-line-3">					
+	<div class="txt txt-6">ISSUES</div><div class="txt txt-7">IN</div> 
+	<br>
+</div>	
+
+<div class="txt-line txt-line-4">		
+	<div class="txt txt-8">DESIGN?</div>
+</div>
+
+</div> 
+</div>
+-->
+
+<div class="img-container">
+  <img src="bkd-1.png">
+</div>
+  
+<div class="navbar">
+	
+<i class="gg-chevron-left chev1"></i>
+	<h1 class="des des-edu">Education</h1>
+	<h1 class="des des-div">Diversity</h1>
+	<h1 class="des des-ethics">Ethics</h1>
+	<h1 class="des des-women">Women</h1>
+	<h1 class="des des-trends">Trends</h1>
+	<h1 class="des des-cap">Capitalism</h1>
+	<h1 class="des des-aut">Automation</h1>
+	<h1 class="des des-acc">Accessibility</h1>
+	<h1 class="des des-env">Environment</h1>
+	<h1 class="des des-age">Ageism</h1>
+	<h1 class="des des-white">White</h1>
+	</div>
+	
+<div id="nav-line"></div>
+
+<h4 class="ages">Ages</h4>
+
+<div class="circle-container">
+    <div class="nav-line-circle"></div>
+    <div class="nav-line-circle"></div>
+    <div class="nav-line-circle"></div>
+    <div class="nav-line-circle"></div>
+</div>
+ 
+
+<div class="quotes">
+
+
+<div id="quote-container">
+<!--education-->
+<div class="quote q-edu-50">
+<h5>
+
+Access to design education; limited understanding of a shifting global landscape of design sometimes from US based designers.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>51</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Lack of official certification... People are beginning to call themselves designers because they bought a computer, Adobe CC, and watched a bunch of videos. They lack the educational foundation and professional development needed to be an effective designer...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>51</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+We can immensely improve design education through experiential learning. But that needs to be at an interdisciplinary level with paying clients. Yes, it's possible.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>52</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Fewer and fewer designers are receiving 'Design' education as a foundation. Overemphasis on design software in schools and workplace—less on design theory, history and education—is making (graphic) design work look the same. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>54</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Generalization of art and design education. The broader overview, like a liberal arts education, has its value, but fundamental skills are not practiced with the rigor it takes to become proficient -- especially typography.  
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>62</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Generalization of art and design education. The broader overview, like a liberal arts education, has its value, but fundamental skills are not practiced with the rigor it takes to become proficient -- especially typography.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>62</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Design must extricate itself from the consumer-led marketplace as its primary/sole context. Design must play an increasing role in addressing the most pressing issues facing 21st century societies and a greater emphasis must be placed on collaboration across disciplines within design education.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>64</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Design must play an increasing role in addressing the most pressing issues facing 21st century societies and a greater emphasis must be placed on collaboration across disciplines within design education.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>64</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Lack of culture, education, and knowledge of human history. Also super pollution, and saturation of bad taste.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>68</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-50">
+<h5>
+
+Most designers speak only one language. A deep education in design should include the study of Russian, Spanish, Chinese or Arabic.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>71</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+<div class="quote q-edu-40">
+<h5>
+
+Design is being disrupted like every other industry. We are designing ourselves out of work on a global level... AIGA needs to lobby along every union and group to encourage a UBI, educational assistance and provide guidelines around ethics to new and old designers.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>41</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+Employers systematically demand creative thinkers and problem-solvers as employees, yet undervalue education in the arts and humanities. A critical issue facing design is the undervaluing of and misunderstanding of how design is integrated into everyday lives. Our government officials need education as they perpetuate misconceptions concerning the Arts and Humanities.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>42</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+I think there is a lot of education out there on the UX/UD side that is so focused on the research and development that design is kind of set to the side... Creativity isn't respected in the corporate world and it is all about deadlines and the bottom line.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>44</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+We need to push for more design education at the primary levels. If we want a new generation of people doing good and ethical design we need to start teaching them about UX, ethics and good design practices at the high school level. This will help them understand that there are many paths into design.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>46</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+An overall education of design roles/positions and the understanding of what task go along with that. During my time as a 'graphic designer' it has been difficult to get the everyday person to understand what we do, often times it was oh, "you make things look good". Nowadays it's even worse, UX Design, UI Design, AI, VR, app, game, web... The people doing the hiring don't even know what roles in the design industry are and what they do...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>47</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+Design education is not teaching the skills needed of future designers. Creative problem solving, systems thinking and design research methods are not well integrated into design education in many institutions.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>47</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+I am seeing less emphasis on thoughtful and artful design in our higher education environments, and too much emphasis on the technology. It makes the work feel like it has no soul/humanity.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>48</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-edu-40">
+<h5>
+
+In my position (as a full-time faculty member teaching in a Design program), I think the major issue is getting more state/government funding for US universities. There has been a systematic decline in funding for higher education for more than two decades.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>49</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+<div class="quote q-edu-30">
+<h5>
+
+I'll say diversity in design again. Probably resulting from a lack of education around what design is, does, and that there are indeed design jobs.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+... Another challenge has been coming out of college recently and not having resources to search for design agencies in the local area. When searching for places that would fit my design education for applying for positions, I find that it is hard to figure out which companies are reputable and high quality.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Many designers are breaking free from the traditional 9-5 job to freelance full time or to start their own small businesses. Having more resources for such designers, such as healthcare, retirement savings, insurance options, legal counseling, accounting help, business and finance education would be highly beneficial to these designers and the design industry.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+I see the biggest challenge being lack of education of clients. There is an ignorance of good design/how design works...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Web design is still a struggle for EVERYONE. Education still hasn't caught up and most designers just use their print education to design for the web. Most designers I know have problems with designing websites too big and have a hard time picturing responsiveness.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Web design is still a struggle for EVERYONE. Education still hasn't caught up and most designers just use their print education to design for the web. Most designers I know have problems with designing websites too big and have a hard time picturing responsiveness.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Design is becoming too segmented. Educational institutions are creating clones and ignoring the value of a general foundation-stifling the process of finding your own path through design.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+[Designers] are at the very core of making things desirable and producing life styles, determining what we value as a society.  I think there should be more emphasis ( at the educational level ) on the ethical and political implications we have as designers and design in general. Designers should be able to decide how they want to work and with whom but we should be more knowledgable and critical about the larger effects of design in today's world.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Accessibility to design education/the robbery of, "for-profit," institutions... Mental health in creative institutions...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Design education is being democratized, which will make it easier to learn design, but we haven't figured out what that will mean for supply/demand in the workforce.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+The hiring process: It's a catch 22. You have to have a college degree to get hired. Then you have a degree and you have to have 3-5 years experience. Alternate Education should be valued by hiring managers and real world projects or apprenticeships should be facilitated by schools.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+I believe UX Design is an industry in which diversity of experience, education and background is essential. If we are to understand, empathize with, and be the voice of our users as products and services are designed, we must strive to reflect those users as a practice by including colleagues from different points-of-view, backgrounds, and different sets of needs and experiences. I see the role of effective UX Design programs at community colleges as an ethical obligation of our field.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+The mismatch between the costs of a design education and the earning potential for the majority of designers.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>34</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+I feel the most critical issue facing design is the lack of Design in our Educational System. Especially at the lower levels... When you learn and understand the Principles of Design you can apply those principles to everything you will ever do in life. I believe we are all Designers of something, and the fact that we don't include it in the Common Core of our Educational System is a just a tragedy.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>34</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Education is an issue. Student's don't always learn the most current design trends in college. I've met many students at portfolio reviews in Chicago who only have a print design background. In 2019, this should not be the case... The reason for making something needs to go beyond "it looks pretty" and be more focused on problem solving.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>34</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+I feel that the general population is not introduced to good design or educated in school about design, its possibilities, its historical importance, and the importance about demanding more than the bottom line.  Design should be taught in K-12 education the way that history is so that we as a culture might value and demand better design in our daily lives.  Design must be recognized as a human endeavor.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+The gap between higher education and the practicalities of the working world.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>36</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+We need to break the design history canon based on Western and European theories to views and ways of design from around the world that have been invisible. We need to decolonize design education.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+The growing divide between industry and education caused by the neo-liberal economic model. Few students see the value of contributing to a body of knowledge for knowledge's sake and instead view education as a  hurdle in a path to one's career. Design schools and programs need more funding and support from the industry...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-30">
+<h5>
+
+Access to quality, affordable education-which would produce a spectrum of design voices, telling a spectrum of stories, which more accurately represents the spectrum of human beings that exist on this planet. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>39</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+
+<div class="quote q-edu-20">
+<h5>
+
+I feel like the improper education about design in academic spaces is a looming issue. There isn't enough access to quality resources for art/design students and we go into life feeling unprepared and uninspired. We need to change the language around teaching design and make it into a helpful, less competitive environment that enhances every students individual creativity.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+Design education isn't easily accessible. I taught myself how to use most design software on my own and then undergrad taught me more concrete design rules. Obviously many people cannot afford to go to a good college...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+... It kills me that the developers at my company make double what designers make. We have the same amount of education and most of the time we're the only team working after hours. I hope that in the future designers are valued are more.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+There needs to be more funding and accessibility to arts education programs in schooling at every level.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+Upper education programs are lacking in terms of preparing students for the workplace and working with coworkers/clients. Not all students are able to get internships and end up with the short end of the stick upon graduation...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+... This may just be me personally but I often feel as though I am not good enough because of the education I could afford. I often wish I just took an apprenticeship instead of attending university - or I question whether I need more education to get the job that I would like.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+Design educations are way too expensive, creating a gated community of fairly affluent people working (especially in the major markets.)
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+To double down on the ethical ramifications of design, I think cultural awareness, education, and sensitivity to cross-cultural norms, appropriation, and offensive material should play a bigger role in design education both at the university level and the workplace level. Far too often, even today, I see designers abusing their tools to execute culturally insensitive work...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+... My $100,000+ education didn't prepare me for strategic networking or business and financial planning, which are design issues in themselves. Design education on the collegiate level is brought into question when people are actively learning my job on Youtube for free while I'm in a position that barely covers my student loan debt...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+The design industry can sometimes feel like a walled garden. The education sector is so European focused that we miss the beauty other cultures can bring to design and life.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+There are many artists in this world who arent hired or seen as an equal because they lack education. Being an artist isn't something that can be taught. Being an artist is in your blood. I believe that there are BRILLIANT individuals without a degree or certificate that are self taught and CAN complete with any paper document... Art and design are in you...not on you.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+... Art school is great - but institutions of art education need to be far more responsible about the costs they impose on young folks who maybe don't fully understand the fiscal can of worms they could potentially be opening.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+I find another issue facing design is a lack of good design leadership. Many very talented designers I work with are not good with leadership/management skills and I think there needs to be more education around becoming a successful design leader and mentor to other designers.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-edu-20">
+<h5>
+
+... Design education limits designers from the get-go by foregoing a deep understanding of ethics, science, politics, and humanities. Industry leaders spend too much time writing and sharing think pieces, without acknowledging the privilege that got them their audience and success.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+<!--ETHICS-->
+<div class="quote q-ethics-50">
+<h5>
+
+Regarding the ethics of design, we as designers must lead by showing what we want to be reality... The "if you can't see it, you can't be it." movement needs us all to push harder. There are organizations and companies beginning to do this: Nike, LPGA, Patagonia, etc., but this wave needs more designers to push great, open-minded, positive ideas forward and get them in the (global) public eye.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>52</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-50">
+<h5>
+
+Intersection of AI/Technology and Ethics of Design. What role do they play? How do they work together? When should designers take a stand or not accept work that is unethical? What role do we play in a democracy? The state of California recently redesigned its voter materials. What an excellent job!...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>59</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-50">
+<h5>
+
+I am at the front lines of print journalism, and I see this week's demise of the print edition of ESPN as perhaps the final bullet in an eviscerated industry. I am doubtful of the ethics of digital-only information and I worry about the takeover of the free press. I feel design is being used by evil people to addict citizens to electronic devices and subsequently control them and erode human freedom.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>62</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-50">
+<h5>
+
+... With so many self-taught people in the industry (coders, UX/UI people, etc.) there is a misconception that this industry is easy and doesn't require training or a code of ethics.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>63</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+<div class="quote q-ethics-40">
+<h5>
+
+It's time to revisit the AIGA code of ethics for the new millenia. We need a REAL professional association, like lawyers, doctors, and architects have. We are quickly reaching (if we're not already there) a time when people will die because of bad design decisions... 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-40">
+<h5>
+
+while conversation continue to revolve around ethics, environmental impact, diversity, and the like, awards are still given for what looks pretty. ethics and sustainability are still side-bars as awards categories, rather than a main qualifier in the decisions. thus, we're at a stand-still: arguing for ethics while rewarding beauty...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>45</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-40">
+<h5>
+
+More digital designers need to be actively thinking and talking about ethical and social considerations of design (algorithmic bias, data privacy and transparency, etc.).
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>46</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-40">
+<h5>
+
+ethics, algorithms, and despite best intentions "best practices" and over-emphasis on UX/UI have lowered the bar for diversity in design.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>46</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-40">
+<h5>
+
+Ethical/supportive work environment where design workers are not expected to work super long hours. Respect for the remote worker. Workplace workflow efficiencies to stop the "fake" work and allow more time for actual design work. Healthy work-life balance for design workers. Medical benefits tied to employment prevents pursuing a better workplace, more satisfying work... 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>47</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+
+<div class="quote q-ethics-30">
+<h5>
+
+... Design is also at the point where it has the power to be more socially and politically more responsible and people have to be aware of ethics they didn't think about before or care for in the past. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+As a women in tech, I still want to see not just more women but more... trans, queer, non-binary, etc as well as people of color. I think there are perspectives and levels of ethics in design that could use an eye of someone who isn't a cis white male...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+This may be outside of the scope of AIGA... as it relates to ethics and stability... 1) Overuse of freelance work, INCLUDING the expectation of "full-time freelance" which includes working with one company on an hourly rate without benefits, on-site, at a specified time... This kind of employment creates precarity for young and marginalized designers that can't be understated. 2) Small companies means no Human Resources department, coupled with... [the fact that] jobs are harder to come by in a lesser design market (Chicago) means employees have less agency, workplaces become toxic or unfair, things don't get reported, people burn out. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+Wrapped up in Design Ethics: navigating a shifting social landscape and creating communication platforms at the scale human kind has never seen... as designers, we should take personal stake in the outcomes and implications of our products.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+The role of designers at large within society is being disproportionately shaped by for-profit technological ventures, which prize "innovation" at the expense of ethics and social justice. The role of designers within tech organizations overall, being adjacent to that of engineers and developers, is falling prey to a culture of overwork which leads employees to burnout and antipathy toward their industries.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+Understanding how personal design ethics are crafted and how they are a value add to an organization that should be adhered to, not noise. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+Ethics, especially in tech/software, is the biggest problem facing design right now. Partially under that umbrella and also wildly important: basic equality and diversity... 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+... People say they're super concerned about design ethics, but when it comes to practice, everyone has to pay the bills and very few care about their actual impact.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+... I feel that there is a severe lack of basic business training and career planning in my program. It's basically not covered at all. I would also like to see more focus in the industry as a whole on ethics and designing for valuable causes. How do you make a living while doing work that's in line with your conscience?
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+... The ethics of this issue, let's go gen-X and call it selling-out, is a problem that exists within design and has bled into the world. Are designers themselves making better solutions with sustainable futures in mind? Or are we equally guilty to sell the next plastic product to the world in the name of paying off our degrees?
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+It seems pretty apparent in these last 3-5 years that Facebook/Instagram/social media have measurable negative effects on all our lives... the designers of these products don't care and abuse the design systems to keep people engaged... These problems need to be worked out, and I don't think we want Facebook or Google or any of these actors to figure out how to fix it. It needs an overhaul and people inside and out of design and ethics to work it out.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-30">
+<h5>
+
+It seems pretty apparent in these last 3-5 years that Facebook/Instagram/social media have measurable negative effects on all our lives... the designers of these products don't care and abuse the design systems to keep people engaged... These problems need to be worked out, and I don't think we want Facebook or Google or any of these actors to figure out how to fix it. It needs an overhaul and people inside and out of design and ethics to work it out.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+
+
+<div class="quote q-ethics-20">
+<h5>
+
+... Issues of ethics and representation are also critical. Many designers use their design skills to promote activities and actions that are bad for their health, bad for the environment, or that will cause more social issues
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>21</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+... Design is not art, it's meant to solve problems and climate change/consumerism are some of the biggest... Volunteering our services and getting involved with organizations that are ethically sound.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>21</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Design being pigeon-holed within the confines of capitalism. Including discussion of equity and ethics in design.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+What's going to happen to design when the tech industry bursts? The tech boom has attracted new designers to UI/UX design who ignore the questionable ethics and negative environmental impacts to chase financial gains while lying to themselves and saying that they're doing meaningful work: designing for humans. At what cost?
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+In larger, Fortune 500-type companies designers are faced with issues around power and ethics and consumerism. They face a tension of wanting to flex their design skills for amplifying causes that do harm to the world. In smaller, startup-like, even social-good oriented companies, designers are faced with issues like being overworked, underappreciated and misunderstood... It all feels like a catch 22. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+I think ethics will continue to be a critical issue - working in the ecommerce space, it feels vital to address.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Educating not only designers but also clients on the social, environmental, business, and even psychological impact of design, of the ethics of design, not just about making profits...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+... Design has a huge potential to influence disinformation positively and negatively. Design ethics is the biggest hurdle we're facing.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+As designers move into tech, many are having to make highly impactful decisions that affect the general population on a grand scale. Designers do not have a formalized education that prepares them for this: ethics, psychology, sociology, even economics; we have a history of focusing on seeing design as just silo'd visual communication, when actually design is the rendering of intent, problem questioning / defining, and making data-informed decisions...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Industry-wide standards for everything from ethics to money to how we collaborate.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years></h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Ethics of design: designing for relationships with technology (namely apps) that enhance/lead to real experiences with other humans in real life, as opposed to designing technology that becomes addictive to an unhealthy level.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+The unit of analysis for "design ethics" can't just be at the level of designers. 
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Design is openly discussing ethics and claiming responsibility but I think it's important to share that responsibility with our partners (business, IT, etc.) because design isn't usually a primary decision maker... We need to open up that conversation to other roles in the industry and share the accountability. Also, consider how academia plays a role in defining ethical design. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Ethics and change for change's sake
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+<div class="quote q-ethics-20">
+<h5>
+
+Ethics based design in AI and data collection consent
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+
+<!--diversity-->
+	<div class="quote q-div-50">
+<h5>
+
+Diverse inclusion! Gender, age, and racial inclusions are based on the limited determination of a few. Wealthy studios and the institutions they support reinforce the status quo. The diversity models they ""offer"" are based on a criterion that has been in place for over 30 years. Solutions offered are band-aids, assuring that voice remains the same. While most ""professions"" publicize and promote current independent and academic research, graphic design promotes pictures. For graphic design, the medium has changed but the message has not.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>50</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-div-50">
+<h5>
+
+I look forward to a day and time where the folks working in the industry reflect the population it is serving. More diversity and representation at all levels of the industry.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>52</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-div-50">
+<h5>
+
+Diversifying your workplace to represent the global world we live in shows in the deliverables. You can't fake diversity. You either live it or use images to give the illusion.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>60</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-div-50">
+<h5>
+
+The Key Issue is  "how do we get American society and culture to become more aware of the impact that all fields of design have on this planet and humanity?"
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>68</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+Severe lack of diversity at a managerial/art director/creative director/studio owner level
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+I see the extroverted work style of overconfident yet underqualified white men constantly rewarded with career advancement and resources, therefore reinforcing the power structure of men who hold the seats of power in design. Diversity also includes different types of work styles, viewpoints, and experiences. It's a weird hard challenge to overcome in the industry.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+social responsibility and lack of diversity. Extreme gender bias. Elitism. Broken hiring methodologies.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>41</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+I am currently conducting a survey of Diversity + Design, and am very interested in fostering diversity, equity and inclusion in design. This is a two-fold effort because it requires both HIRING designers of diverse backgrounds and enabling those designers to design for people who are not centered in our society (i.e., white, male, straight, American, able-bodied, neurotypical, etc.). In the 90's, it was estimated that design was 93% white. That means that our entire visual language is centering White culture, and we are failing to effectively reach other races and cultures in our visual language.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>42</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+Diversity and growth opportunities for under represented people.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>44</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+ethics, algorithms, and despite best intentions ""best practices"" and over-emphasis on UX/UI have lowered the bar for diversity in design
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>46</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-div-40">
+<h5>
+
+The most critical issue in design is the lack of diversity: racial (not enough non-white), economic (not enough low-income), geographic (not enough non-urban)
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>49</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-div-30">
+<h5>
+
+I focus on design in the accessibility sphere and making information more visually accessible. There isn't enough diversity and representation in types of design and messages communicated. Especially when it comes to Deaf designers who's native languages are visual. There needs to be more resources and support for creating more opportunities for accessible design and utilizing the strengths of visual language possessed by the Deaf.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+I'll say diversity in design again. Probably resulting from a lack of education around what design is, does, and that there are indeed design jobs.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Exceptionally difficult to find new positions because I wasn't able to attain a degree due to financial standing. Socioeconomic diversity is important.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Diversity at the top, blind loyalty/obsession with social media and celebrity, lack of diversity and originality in the work everyone makes because we're all drinking from the same pond, in terms of inspiration.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+For me personally, it's diversity on the team's I'm in. Most of the team's I was part of are predominately white with similar design styles and perspectives. Even the conferences that I'm attending are predominately white. I understand having more females is one form of expanding diversity, but I would like to see more walks of designers sharing their expertise and experiences.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+The cost of a college education in the US and student loan debt. Wage stagnation. Health insurance for freelancers. Finding career development paths that have not been monetized and the burden is not placed on the individuals. Lack of grants or fellowships for the design and animation community in the US. Actual commitment to diversity within studios. Systemic sexism in the community.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Hiring people that think the same way as the hire-er, resulting in less diversity.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+The lack of mainstream design agencies/groups that highlight diversity and are made up of underrepresented groups. Most designers (non-FineArtists) featured in the mainstream are of one color or identity.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Diversity diversity diversity diversity diversity
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+I believe UX Design is an industry in which diversity of experience, education and background is essential. If we are to understand, empathize with, and be the voice of our users as products and services are designed, we must strive to reflect those users as a practice by including colleagues from different points-of-view, backgrounds, and different sets of needs and experiences. I see the role of effective UX Design programs at community colleges as an ethical obligation of our field.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Gender Wage Gap / Women in Leadership / Intersectionality Diversity and Inclusivity in the Workplace
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Diversity is not only an important issue in our field but also in our schools/design programs. We need diverse faculty and courses/projects that address issues around gender equity, inclusivity, accessibility, and the decolonization of the design canon.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>34</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+Design has been the engine for consumerism and waste for over a century now, as well as being a white and male dominated enterprise. Diversity mean much more than believing in it, it mean actively listening, intentionally hiring, and enthusiastically growing.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+...it seems that agencies are more concerned about hiring friends or people like them/their friends than on merit/skills in a businesslike fashion. This is part of the reason I believe I cannot secure a role at another agency. Generationally, it seems that the older Boomer generation is not willing to mentor or trust anyone younger, preferring to assume that Millenials are immature, lazy, and incompetant (becoming a self-fulfilling prophecy).
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>36</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-30">
+<h5>
+
+I see a lack of diversity as a huge problem, as a co-founder and creative director at my firm, I am often one of the only women in the room.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-div-20">
+<h5>
+
+Definitely not enough diversity in the design community. Design school is expensive, club memberships are expensive, events are expensive and not always accessible without a membership of some kind. Design events feel exclusive to people who are already established and not easy for new people in the industry to come in.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Lack of diversity, including presence of diverse peoples in leadership positions. Inequal pay. Still feels like a boy's club at times. Diverse perspectives are lacking likely due to privileges needed to receive design education.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+One of the major challenges that I believe the design industry is facing is that of an ever-changing, visual culture overload. With the accessibility and diversity that exists within our social media atmosphere, our senses are being constantly overloaded.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Under employment and unemployed designers. Many designers do freelance to make ends meet instead because getting a job is difficult.  as well as no diversity in the design world. 90% of the agencies are white dominant companies
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Lack of diversity. I can't name another mixed-race person in this industry other than myself. I am tired of witnessing black designers not receive the attention they deserve.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Diversity in the workplace and limited junior design opportunities... I ended up taking the first job offered to me because of the fear that the opportunity would not come again... I am a Filipino American, and it's honestly disappointing looking at the team members of companies I apply to. I tend find very few people of color, let alone any Asian or Filipino designers. I know we are out there, but I have to wonder if my job-hunting experience would have gone different if there was more representation in the field of design.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+There is a lack of diversity in Design and it reflects how things are produced and who they are produced for. The aesthetics of sophistication can be determined through a lens that cannot be related to by everyone, and it leaves some people with different economic backgrounds feel that this product is not made for their financial situation. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Gaining real world experience as a young person/recent grad. Lack of diversity within the design field. Having clients and companies know the difference between all the different UX categories.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Lack of diversity. Firms not paying their interns. Graphic Design degrees costing a lot from private institutions.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+The biggest thing for me is accessibility to design education and diversity. As a Latina, there are very few people in design that have stories like mine, or understand my story.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4><1 year</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+The value of designers is very low. People do not want to invest is design or the people behind it. Leading to low pay, lack of pay with benefits, proliferation of free internships. This in, in turn, has created an environment where it is easier for already privileged people to enter the design field and kills diversity in the industry.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4><1 year</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Diversity in design and advertising. Yes, we are (only recently) good at incorporating diverse ethnicities, sexual orientations, and family types in advertising work. But in terms of who actually works in advertising, diversity lacks significantly.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+We need more diversity in the industry to better serve a diverse set of users. Women, people of color, and disabled people help prevent stupid problems like unusuable interfaces due to thougthless color design, mysogynist and racist language, and swastikas hidden in logos.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+Limited opportunities in design start from very early: lack of exposure to the industry in our youth, which then tends to affect the kinds of people that end up pursuing it as a career/hobby, which then creates lack of diversity.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+The design community is hugely lacking in diversity, which has become increasingly apparent to me with the more conferences and local events I attend.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+disability disability disability. we are at a time where we are finally talking more about "all inclusive" and diversity, but this rarely every includes disability, therefore it is NOT all inclusive.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+We need diversity, more points of view from minorities etc. We need to focus on inclusion in disabilities in all aspects of design and put that first when designing.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-div-20">
+<h5>
+
+More diversity in artists, being able to grow many low-income artists who are unlikely to be discovered.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+
+<!--WOMEN-->
+	<div class="quote q-women-50">
+<h5>
+
+Being a woman of my age making a career change I feel that there is a bias for  younger people. This isn't just a problem in the design world; it exists in the technical world as well you hit 50 and that is the magic number. Does the creative spirit die at 50?
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>58</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	
+	<div class="quote q-women-40">
+<h5>
+
+Tech industry is incredibly misogynistic and doesn't seem to change. It's insane how in the States women are treated in a workplace... I had to come to this land of "freedom" to experience misogyny being everywhere, women being treated constantly like stupid versions of men, being paid less. I've lost most of my respect for this country over the last 6 years, seeing that level of abuse every day. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-40">
+<h5>
+
+... don't even get me started about the rampant sexism in the tech industry. I have never felt more invisible, unimportant and underworked than when I served as a Senior Interactive Designer at one of the oldest computer technology corporations whose founder is a known womanizer, and that sentiment permeates and discolors the company. It's impossible to feel valued at work when you know women are largely seen as insignificant by the company's leaders.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>48</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-women-30">
+<h5>
+
+ I also struggle with the fact that white men still hold the keys to powerful positions, women and POC are in the field but just not brought to the right tables...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-30">
+<h5>
+
+... It's hard for me to think of that many older graphic designers, as it seems there is an expiration date for them in this industry. My mom has been a graphic designer all her life, and she has faced immense struggles as an older woman designer to find a job that pays her beyond minimum hourly wages for something she has always done, and is an expert at.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-30">
+<h5>
+
+As a Black woman, I feel the voices in Black Creative/Art Directors are limited/non existent. Unless we are talking about social issues, we're not invited to the conversation. While I care about social issues, I don't want to talk about that topic to be the only reason I talk design... I don't need to have, "Black Lives Matter," attached to my topic just to be heard. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-30">
+<h5>
+
+Educators preferring elite white men and women familiar with the design world to facilitate their work, and spread their agenda. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-30">
+<h5>
+
+The lack of mentorship opportunities/imbalance of mentorship for women in design vs men, and the corresponding lack of advancement and growth opportunities for women. It's harder for women to advance to director-level positions because the mentorship and help network supports mostly male designers...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-30">
+<h5>
+
+... It's quite widely known that women do not get the same leadership opportunities but I've even heard of 1950s era dress codes being enforced at some places... [these] issues have been raised in the past in the context of creating a design union, which I think would be an amazing step forward for our industry.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-30">
+<h5>
+
+The glass ceiling for women in design... I've been in multiple situations now where I get shut out of cd positions bc the men determine that I'm not confident enough, when in fact I am—I just communicate my confidence differently: I ask questions rather pound on my chest and assert myself. I also feel like there is a general level complete unawareness of the issue so women are either changing how they communicate or leaving the field. The thing that makes me good at what do is the thing that also appears to be my biggest liability in the field: empathy. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	
+	<div class="quote q-women-20">
+<h5>
+
+The respect and equality of women in design and particularly design leadership, lack of design in products only used by women (ie: medical devices), the "traditional" feminization of products for girls and women &lpar;ex: barbies for girls vs. science kits for boys&rpar;
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>21</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>Less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+As a woman I am infuriated about the gender pay gap...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+More women and people of color need to be in 3D generalist roles/more technical roles. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>Less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+We need more women in Art/Creative Director roles. Majority of my graduating Graphic Design class was female and the year above and below was also majority female yet I look around and see mostly (white) men above me. Women and minorities need people who look like them to look up to! We also need to get paid the same as our white male peers...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+We need more diversity in the industry to better serve a diverse set of users. Women, people of color, and disabled people help prevent stupid problems like unusuable interfaces due to thougtless color design, misogynist and racist language, and swastikas hidden in logos. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+I think the biggest issue is income inequality and lack of set rationale for career advancement and how that is affected by gender. I want to see more women being put in positions of leadership and men being held to the same standard that women are held to...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+Women of color not having ideas that do not get the space to grow. Ideas are often shot down and then taken when someone else says them or discredited completely. There is a rate of people trying to be aware of diversity but continuing to be tone deaf especially when regarding the severity of marginalization in the workplace. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+I've heard the percentage of women in tech is 22%, which is down from 35% in the 1990's.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-women-20">
+<h5>
+
+Where are all the Black people, especially Black women? Does the industry even care? People of color need more access, especially our youth. The industry could benefit immensely from our point of view...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	
+	
+<!--ENVIRONMENT-->
+	<div class="quote q-env-50">
+<h5>
+
+The environment: Environmental impact to be considered in conceiving, designing, producing, and demanufacturing products-Cradle to cradle.  
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>56</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-env-50">
+<h5>
+
+Social media is forcing design into a tiny visual space on a handheld device, for a very short viewing period. Too much time and resources are being dedicated to this tiny visual space. This may be a fad and large visuals may gain their place again as large screens become ubiquitous, but during the current environment many traditionally larger communications media-even visually rich websites have lost larger scale viewing.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>61</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-env-50">
+<h5>
+
+Designers should be more integrated into broader fields and brought in earlier in defining problems and helping develop solutions. We should be educating and working in more cross-disciplinary environments.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>66</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-env-40">
+<h5>
+
+Avoiding silos in the workplace and cultivating a collaboratory environment, without forcing it. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-40">
+<h5>
+
+There are many companies that don't seem to have a design conscience. They look at the bottom line, and choose to use products, and have products designed that can damage our environment because it's cheaper to fabricate.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>43</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-40">
+<h5>
+
+environmental crises (e.g. lack of clean water in Flint, MI, climate change in general, buildup of plastics everywhere)...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>43</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-40">
+<h5>
+
+The environmental, consumerist, and planned obsolescence issues are all tied together. We deal so very often in ephemera, where the expectation is that our work will be quickly discarded, and it's troubling when there is no heed given to what happens to it after it leaves the consumers' hands.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>47</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+
+	<div class="quote q-env-30">
+<h5>
+
+We don't think enough about the environment when designing, or have any control over that aspect. The customer just cares about money, not the environment.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+Designers have created or helped create the systems that are contributing to income inequality, destruction of the environment and natural resources and the erosion of democratic values. So many articles and design leaders preach our ability to emphasize with people during the design process but the output of so many of the things that designers have themselves created or have had a hand in bringing to life don't show that empathy and don't show any kind of acknowledgement of the potential negative impacts.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+Rather than making big contributions to micro-causes, how can we as designers make contributions to big causes that strike at the heart of society's biggest problems? I'm thinking less designing for accessibility and more contributing our skills to political causes that would change laws around sustainability and equality (racial, economic, environmental, etc.)
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+A typical one is agencies looking for experienced people but not willing to give experience to those who are hungry to learn. The flip side, hiring inexperienced designers but not giving them the environment to learn. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+While logically we may think social media is designed to bring us all together, I feel it has us spread too thin, and also becomes overwhelming... As designers, we need to be a part of REAL LIFE in order to design for it, and I feel in many ways, our living behind the screen is creating such a great disconnect within our communities, personal relationships and our roles in the natural environment.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>34</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+The best jobs for designers are with global brands that contribute in some way to poverty, discrimination, waste, and climate change. Because these jobs offer the best pay/benefits, and because young designers have loads of college debt, these jobs are attractive... As a freelancer, I'm able to work with smaller clients who do good in the world, and not for global brands. But that means I've chosen a route that will likely never bring me any awards or exposure, doesn't put me in close proximity to other designers... and offers me lower compensation with no benefits. I'd love to see the industry talk more about design's role in the greater good of the world... I think designers are hungry for it, but have few models of how to go about making that career path work. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+The lack of inclusion in the workplace. I don't feel valued in social environment because I am deaf and am not invited to small meetings to learn how to brainstorm and be creative sharing ideas with others. It's quite disappointing. How can I grow as a better designer if I am left out like that? My only daily access is instant messenger and paper/pencil (slower method). My company do not want to hire interpreters for small meetings; only the large meeting once a month...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-30">
+<h5>
+
+Teaching design thinking and its relevancy in corporate environments. How to quantify and communicate design processes in organizations. And the social and environmental impact of design solutions. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-env-20">
+<h5>
+
+I've heard of so many designers burning themselves out with hectic and busy jobs that I've come to expect that I will eventually find myself there as well... I think one of the biggest issues we all face is the typical environment of overwork and burnout. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>Less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+design as a field has a branding issue. i feel the average person doesn't know how much design influences their environment...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+In a world where designers create products that are voraciously sold to consumers we need to be conserving our resources, reducing our impact on the environment and sharing more. All this, while still delivering personal, functional, emotional products and experiences that people have come to expect. There is a necessary paradigm shift that needs to occur and the current state of consumerism will make this difficult, but it needs to happen.  I think software and AR will play a large role in this and companies like Google and Microsoft are already demonstrating the potential of such tech.  
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+I think being aware of the companies we serve, and their social and environmental impacts, is important and often overlooked.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+designers have a responsibility educating clients and themselves about the environmental impact of graphic design. It's our responsibility to provide green options, materials, cut production waste and be conscious of why sometimes what we produce can be wasteful. Designers need to provide print shops that are ecofriendly to clients...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+I believe the most pressing matter facing design is our ability to change consumerism's impact on the environment. Designers create packaging and work with the materials that cause environmental harm, and it's time to turn towards sustainable options and save the global community from impending, irreversible global warming.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+Competitive environment where it's hard to find a fulfilling job. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+I feel the images we see in our environment strongly impact our behavior and decision making. Design is a pivotal communicating tool and solves big problems. Many designers aren't aware of their full value because creative business development is not taught in most institutions...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>24</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+Designing in support of short term shareholder returns vs long term social and environmental impact
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+I believe that as in Interior Designer we can be more impactful in our material choices. I see a lot of acrylics, plastic, animal hides, chemical paint that can be harmful to our environment - come 10 years from now. I also see that change is happening exponentially and not everyone is onboard to learn new skills because they are already seasoned in what they do - that hurts the rest of us picking up those tasks.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+We are slowly cornering ourselves into a place where design is so closely attached to political environment. It has been an industry that has always been, but people haven't embraced that. In order for these challenges to change it can't just be in our industry. If we fix design and our challenges within it, woohoo. But I feel like we need to be empowered to change other industries through our challenges and solutions...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+HUGE PAY GAP !!!!!!!!! HOSTILE WORK ENVIRONMENTS. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+    </div>
+	<div class="quote q-env-20">
+<h5>
+
+Design doesn't know how it's influencing society and the environment. Instagram influencers are ruining National Parks, Facebook is causing a spike in depression, time spent in social apps means less time spent with meaningful connections. Humans are forgetting how to be humans. It took a millennia for the human brain to evolve, it can't evolve as fast as technology and bad players are taking advantage of this to make a quick buck...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-env-20">
+<h5>
+
+I believe the most critical issues facing the design industry are an inwards, myopic dialogue that doesn't engage with larger communities, issues, etc (ex: book fair popularity vs dialogue on environmental impact). This is not specifically solved through social media engagement and visibility, something my younger students are frequently vocally skeptical about. I think there is a simultaneous challenge for designers these days to feel a sense of belonging to larger, less individualistic narratives, while focusing on personal growth, success, and self-development of their artistic and creative passions and goals. We need to seek better ways of forming more inclusive, less individualistic, coherent narratives together.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+<!--WHITE-->
+	<div class="quote q-white-50">
+<h5>
+
+We're rightly emphasizing diversity & inclusion, yet do nothing to address that marginalized individuals have different communication styles, and being heard can be difficult. Some don't know the "rules" for collaboration, had to aggressively assert themselves to gain opportunities, but create conflict... Many survivors of sexual harassment or abuse do not receive justice, may go into new workplaces without support. Non-white races may feel othered... I'd love to learn how to better advocate. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>53</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	
+	<div class="quote q-white-40">
+	<h5>
+	Diversity and inclusion roles only being led by those who identify as a person who is underrepresented. We need more white men and women to step to the plate. When a person of color is seen as ""Oh you'd be great for this D&I team because you are (enter race)"" that should not be the automatic position they are put in.  </h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-40">
+	<h5>
+	I see the extroverted work style of overconfident yet underqualified white men  constantly rewarded with career advancement and resources, therefore reinforcing the power structure of men who hold the seats of power in design. Diversity also includes different types of work styles, viewpoints, and experiences. It's a weird hard challenge to overcome in the industry.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Experience Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-40">
+	<h5>
+	Lack of design resources and community for those of a race other then white. </h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>41</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-40">
+	<h5>
+	The current agency set up is bullshit and lends itself to keeping Eurocentric white men in positions of power.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>49</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-40">
+	<h5>
+	The most critical issue in design is the lack of diversity: racial (not enough non-white), economic (not enough low-income), geographic (not enough non-urban).
+	</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>49</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Education</h4>
+	</div>
+	</div>
+
+	<div class="quote q-white-30">
+	<h5>
+	As a person of color, white managers and directors make it miserable and hurtful to work in the industry. </h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-30">
+	<h5>
+	Especially in tech (where I'm in) I feel like most people are like me (white cis-male) and practice design the same way I do (very Eurocentric).
+	</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+	</div>
+	<div class="quote q-white-30">
+	<h5>
+	Decolonizing design education. The pervasive sentiment is that the only visual communication systems are derived from the European idea of "Whiteness"...</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-30">
+	<h5>
+	The leftward spiral into ever more political tribalism and exclusion. Not every designer, or even non-designer looking at the design industry, wants to hear about how we should make design more gay, or more diverse (any and all white people now viewed as a problem, no matter your skills), or more equal (as in outcomes, not opportunity).</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Experience Design</h4>
+	</div>
+</div>
+	<div class="quote q-white-30">
+	<h5>
+	...design seems overwhelmingly filled by people in roles who are either white or (east/far east) Asian, but people who are Black or Hispanic are few and far between. This is a bigger issue than gender inequality, IMO, because there are fewer chances for people to understand cultural differences and communication styles between the different groups. When hiring managers encounter them, they feel that designers are not a good ""fit""; but the truth is they simply aren't used to them. </h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>39</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Interaction Design</h4>
+	</div>
+</div>
+	
+	<div class="quote q-white-20">
+<h5>
+
+Gentrification and the role art &amp; design plays in displacing entire communities and excluding POC, working class, etc. especially in my hometown of Austin. As a Latinx designer born &amp; raised here I feel extremely excluded from the majorly white art community occupying space in a neighborhood that used to be majority working class people of color.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+Design is a white man's game. That's changing, but we are still using design through the paradigm that that demographic has created. It doesn't benefit how my people live or exist.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>22</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+Western standards of design are generally pushed, making it difficult for new perspectives to emerge. Non-white and Queer designers are still not as celebrated and recognized for their contributions as much as they should be-aesthetics created by and for marginalized communities end up being appropriated into the main visual rhetoric and trends without much thought into how this action silences important voices in design...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+Working for white males who do not realize the impact of the design that they put out there...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+I feel as though design isn't really important to companies. They care about filling up the white space when negative space is just as important for legibility. It sucks going into a company and they're already set on a designer's design... there's rarely any room for new designs.  
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+Working for white males who do not realize the impact of the design that they put out there...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+I feel as though design isn't really important to companies. They care about filling up the white space when negative space is just as important for legibility. It sucks going into a company and they're already set on a designer's design... there's rarely any room for new designs.  
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>Less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+It's run by old white people who won't get out of the way.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+... Not enough focus is put on the designer(s) creating the products, which results in products designed for only one of group of people (usually cis, white, able-bodied)... 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-white-20">
+<h5>
+
+Institutionalized racism is a HUGE issue in every industry and tech is not exempt. Stop minimizing me, stop ignoring me, stop paying me half as much as my white counter parts. Do better.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+<!--AGEISM-->
+	<div class="quote q-age-50">
+	<h5>
+	As someone who is advanced in my career I am experiencing ageism and have been told that because I'm older I am no longer innovative, bullshit.  I love the saying "I'm not 52, I'm 25 with 30 years of experience!"</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>52</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Interaction Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-50">
+	<h5>
+	Critical issues: Budgetary, ageism, sexism, planned obsolescence .</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>53</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-50">
+	<h5>
+	It seems like employers are only seeking unicorns and rock stars. Ageism and sexism are still prevalent.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>54</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-50">
+	<h5>
+	Ageism for the senior level designers. Templates for everything. No value placed on the concept or stories behind a brand anymore. Global design offerings at fractional pricing is driving the value of good design to the basement. Lack of design awareness by clients.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>54</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Interaction Design</h4>
+	</div>
+</div>
+
+	<div class="quote q-age-40">
+	<h5>
+	Personally, I worry about ageism and not finding my place as I get older. The industry feels biased for the young.
+	</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>40</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Experience Design</h4>
+	</div>
+	</div>
+	<div class="quote q-age-40">
+	<h5>
+	More resources to combat ageism in our field and to educate people that this is a bias. Where I live, this has been a huge issue.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>43</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-40">
+	<h5>
+	Ageism. What happens to designers after age 40? It feels like there's no resources and a huge bias in the creative industry to hire. This bias stunts innovation and professional development. No one thinks Milton Glaser is irrelevant at his age  - then why do we dismiss everyone else past a certain age?</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>45</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-40">
+	<h5>
+	I'm seeing a huge amount of ageism when it comes to friends past 50. These amazing humans with lifetimes of experience and insight, not to mention skill, who are being passed over time and again for younger, cheaper labor with lower insurance premiums. This has to stop.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>46</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+
+	<div class="quote q-age-30">
+	<h5>
+	Lots of ageism in the advertising industry. Unexpected late hours and terrible family leave policies make it near impossible to plan a family. No permanent employment opportunity for part time work.
+	</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Interaction Design</h4>
+	</div>
+	</div>
+	<div class="quote q-age-30">
+	<h5>
+	I do feel that ageism and the ""gig economy"" are major hurdles for our industry.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-30">
+	<h5>
+	Ageism in the design field. I feel that I am can no longer compete with younger designers in both creativity and skills for jobs that come open, although I have a decade and a half of experience because I have failed to ""level up"" during those years.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>36</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	
+	<div class="quote q-age-20">
+	<h5>
+	First, the understanding of the importance of design in every industry; second, the sexism that still runs pretty freely in the older design community and finally the ageism as design is becoming more popular, the older generations do not take young designers with fresh ideas seriously.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+	<div class="quote q-age-20">
+	<h5>
+	Ageism, the struggle to collaborate, and the tendency to value hierarchy over good ideas.</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>OCCUPATION</h3>
+	<h4>Graphic Design</h4>
+	</div>
+</div>
+
+<!--ACCESSIBILITY-->
+	<div class="quote q-acc-50">
+<h5>
+
+Did you check this survey format to determine if it adheres to accessibility guidelines (WCAG)?  In the survey you site accessibility as an option - but I am not sure this survey conforms to that.  I found the interface here to be confusing with the animated crossing out of my choices....
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>57</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-acc-40">
+<h5>
+
+Increasingly, more people/clients feel they can "do it themselves" because of the accessibility to design software, good phone cameras, ease of purchasing stock icons, copying things from Pinterest, etc. I find it harder to justify costs when clients can piece together their own things for a fraction of the cost. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>49</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-40">
+<h5>
+
+... There's a lack of interest and/or accessibility to utilize the experience of designers to communicate content with the target audience. Poor visual communication encourages the acceptance of information that is either uninformative, conveys mis-infomation, or is not visually readable.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>49</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-acc-30">
+<h5>
+
+Accessibility of design education/careers/mentors to youth in underprivileged communities.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-30">
+<h5>
+
+I work primarily in web design, and over the years I've been seeing dramatic homogenization. Everything looks the same! But it's happening for a very important reason: accessibility needs... interacting with a computer and a website is an unnatural experience, and in order for people to understand how to work with a website, you either need to explicitly teach them or rely on existing patterns... Speaking honestly? It's kind of awesome... It's not often you get a chance to see the point where a field strikes balance between art and necessity... 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-30">
+<h5>
+
+Accessibility standards in experiential design/physical spaces...
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-30">
+<h5>
+
+The emphasis on making experiences accessible to all is often less than the emphasis on making something look good/cool/new/etc. Accessibility is not only about differing abilities to navigate a site or app, but also about making complex information understandable; making experiences that work well on the entire spectrum of internet/download bandwidths; etc...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-30">
+<h5>
+
+Accessibility is still optional and not judged as part of the performance and crucial to the success of the project/design.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>34</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-30">
+<h5>
+
+Accessibility of digital design for those not in rarefied urban professional environments-bandwidth and technological limitations seem infrequently taken into account; the baseline of what "access to technology" looks like for those who may not have computers or internet in their homes or use smartphones primarily. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-30">
+<h5>
+
+Web workers need to understand and apply their leverage to stop dangerous or unethical products from shipping. Privacy, anti-harassment, inclusion and accessibility are not separate from the work. They are the work.   
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>38</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	
+	<div class="quote q-acc-20">
+<h5>
+
+Designing for accessibility isn't always the prettiest so designers are less willing to take on projects like this. The challenge should be why we take on a project as unique but the community values aesthetics over full functionality for those who are disabled.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+There needs to be more funding and accessibility to arts education programs in schooling at every level.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+Obviously accessibility is something that should be on every designer's radar, and I think that it has become more mainstream over the past few years, but I would like to see the design community place even more importance on making sure EVERYONE can utilize their designs.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+Everyone's brand is starting to look the same—how to differentiate with design WHILE still maintaining a brand identity system and also... designing for accessibility.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>25</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+... Inequal workplace quality and information/resource accessibility (cost and convenience) between design firm, in-house designer, freelancer with an agent, and self-employed designer...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+The accessibility of options for new and developing voices. It's difficult for a new designer to break into the field because every entry level opportunity requires experience from non-paid internships that are also very difficult to obtain due to nepotism. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>Less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+... Inequal workplace quality and information/resource accessibility (cost and convenience) between design firm, in-house designer, freelancer with an agent, and self-employed designer...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+The accessibility of options for new and developing voices. It's difficult for a new designer to break into the field because every entry level opportunity requires experience from non-paid internships that are also very difficult to obtain due to nepotism. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>Less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+First, the design world is seemingly dominated by white men and women without disabilities, who in turn get to be the primary decision makers. This affects the entire direction of the profession, including dictating barriers for entry and determining overarching aesthetics. Conversely, I'm a firm believer that good design needs to be taught by a professional. There's a disconnect here where a proper design education is often out of reach of people who aren't rich, while professional training is still needed to foster a high quality of design excellence. In general, there's a lack of accessibility in the profession that needs to be addressed.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-acc-20">
+<h5>
+
+The accessibility of being a "creative" leading to the abundance of designers and its large output of visual pollution. Great work is everywhere making it challenging to bring a new perspective. Personally I find it hard to share my work that I don't find up to par with what I influence from—I'm building false insecure walls. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	
+
+<!--TRENDS-->
+	<div class="quote q-trends-50">
+<h5>
+
+In UX, there are no standards in terms of approach or outcomes. People are not trained well and tend to follow trends. Currently we are being lead by visual designers (I'm oversimplifying) and so interaction takes second rung and it needs to be a collaboration. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>59</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+	<div class="quote q-trends-50">
+<h5>
+
+Graphic design is selling and communicating with targeted,  marketing objectives, and this is getting lost, especially with smaller businesses with limited resources. Our job, and our value, is conveying an appropriate unique voice, not by relying on trends and templates that don't differentiate the client from the competition. I can always tell when a business bought their logo online. There is so much sameness!... 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>58</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-trends-40">
+<h5>
+
+... Trends used to be something we'd consider researching if a project called for it; these days, trends are often the impetus for the project itself. "I saw Company X do this, so I want this too." 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>47</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+
+	<div class="quote q-trends-30">
+<h5>
+
+Instagram and sharing culture has made it challenging for designers. Everything is referential, recycled, knocked off, and our clients come to us with their own idea of what success will be based on what is already happening... There's also a shallowness I find in having to appeal to a customer base that is accustomed to instant gratification and fleeting trends. Timelines are slashed, projects we take on are more focused on the immediate, topical press the launch will create. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-trends-30">
+<h5>
+
+... Design has the unique ability to help us make sense of this crazy world and the new technologies available to us; to articulate challenges such as inequality and climate change; and to help represent all people in visual culture and built spaces. However, the industry is too focused on fetishizing trends.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-trends-30">
+<h5>
+
+Being able to keep up with ever changing technology and trends as someone who got a late start to breaking into the industry
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>33</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+	<div class="quote q-trends-30">
+<h5>
+
+... The popularity of design blogs/publications primarily focused on aesthetics has fueled a design culture obsessed with style and trends vs. process and critical thought. Graphic design has become a popularity contest with those who have figured how to ride the trends, sitting at the top. We need to widen our net and discuss critical issues facing the practice of design and what it means to be a designer in a complex and rapidly changing world. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>15-20 years</h4>
+	</div>
+</div>
+	<div class="quote q-trends-30">
+<h5>
+
+... The popularity of design blogs/publications primarily focused on aesthetics has fueled a design culture obsessed with style and trends vs. process and critical thought. Graphic design has become a popularity contest with those who have figured how to ride the trends, sitting at the top. We need to widen our net and discuss critical issues facing the practice of design and what it means to be a designer in a complex and rapidly changing world. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>37</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-trends-20">
+<h5>
+
+... Trends in design are generated by people echoing the work that gets sold by established Agencies and Firms for multimillion dollar clients. Really good work being done by young/diverse creatives often gets overlooked/snubbed in it's nascent stages until it's appropriated and sold by a big firm for a 5-6 figure price tag (Pentagram's studies for Happy Face Pizza, Buffy, and Resonate are good examples of niche/refreshing design ideas getting cannonballed into the limelight)...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-trends-20">
+<h5>
+
+Adapting too quickly to fading trends rather than sticking to the core principles of design. Good color, layout, and typography will always overcome the fading overuse of ""Cooper Black"" or its counterparts. Good design is easily accessible and doesn't discriminate...
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>less than one year</h4>
+	</div>
+</div>
+	<div class="quote q-trends-20">
+<h5>
+
+Poorly thought out design that focuses on style or trendsetting rather than function or purpose. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>29</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+<!--CAPITALISM-->
+	<div class="quote q-cap-50">
+<h5>
+
+Design largely grew as a profession in service of industry, in capitalistic societies, in service of commerce. As Naomi Klein said in her book This Changes Everything, "Capitalism has declared war on life on earth." Can we design our way out of the enormous problems facing our planet and the beings that live on it? 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>52</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-cap-40">
+<h5>
+
+Being cogs in the destruction of human society via social media, Facebook, and global capitalism.
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>48</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-cap-30">
+<h5>
+
+Capitalism, climate change... "Design can change the world" is a statement that gets thrown around at conferences and in blogs and is untrue and creates a warped view of one's place in the world.  If designers are tools of communication, they must ask themselves, "what am I communicating? Who am I helping communicate?" All design must be political, class conscious design. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>31</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-cap-20">
+<h5>
+
+Every day, graphic design(ers) become(s) increasingly complicit in upholding neoliberal capitalism's unrelenting grasp. We, as starry-eyed designers, give a rotating assortment of friendly faces to the bourgeois institutions that ransack the working class-while the bourgeoisie hoard mounds of wealth. Graphic Designers must wield the communication tools that we possess to break down these oppressive institutions.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>26</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	<div class="quote q-cap-20">
+<h5>
+
+Design education could be pushing against design as a tool for capitalism but instead either feeds capitalism or sits in its own bubble acting like it has nothing to do with capitalism. Students aren't taught how to deal with the realities of the industries they are going into and instead are given a strange idealistic self involved view of design that is just a recipe for failure.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>28</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>5-9 years</h4>
+	</div>
+</div>
+
+	
+<!--AUTOMATION-->
+	<div class="quote q-aut-50">
+<h5>
+
+The word "design" has so many definitions, it is a vague term. For example "being" a designer can mean arranging walls with brainstormed words on sticky notes to actually making a design for something.  Some people have learned ""design thinking"" from years of experience and others by attending a sticky note workshop. What seems to be happening is the automation of a formulaic way to neatly package the creative aspects of design...  
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>59</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-aut-40">
+<h5>
+
+Design literacy broadly - as global economies continue to squeeze out thin margins because scaling old business models produce less profit and we move towards automation (and thus eliminating jobs), teaching people to think like a designer and drive more innovation is going to be more important than ever. Design needs to broaden its definition and design needs to increase overall literacy among "non-designers."
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>45</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>20+ years</h4>
+	</div>
+</div>
+
+	<div class="quote q-aut-30">
+<h5>
+
+... Automation will also be cutting entry-level designers out of work as we grow towards a more knowledge-based economy that won't give entry an opportunity to warm into the pace of design --  it's advanced and fast, and clients expect this way of making. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>30</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-aut-30">
+<h5>
+
+... The automation of UI perceived as a bad thing.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>32</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-aut-30">
+<h5>
+
+...However, the pace of technological change, specifically in automation may change our industry faster than we are prepared for.
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>35</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+
+	<div class="quote q-aut-20">
+<h5>
+
+The thing I fear most is automation, especially online services which create quick & cheap logos. I fear that business owners and other industries see this seemingly easy service and that then causes a decrease in our value (in their eyes). I think designers need to do more to educate other industries about why our skill sets are so vital. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>23</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>10-14 years</h4>
+	</div>
+</div>
+	<div class="quote q-aut-20">
+<h5>
+
+I question the role for designers in an increasingly automated world, I feel in the present moment Graphic Designers are not appreciated enough and I do believe that Design positions may fall by the wayside with the rise of Automation, AI and Machine Learning... [we need] to prepare for a world where Designers may compete with algorithms. 
+
+</h5>
+	
+	<div class="details">
+	<h3>AGE</h3>
+	<h4>27</h4>
+	</div>
+	
+	<div class="details">
+	<h3>YEARS IN INDUSTRY</h3>
+	<h4>1-4 years</h4>
+	</div>
+</div>
+	
+</div>
+</div>
+
+<!--COCURRENT WORDS BOTTOM RIGHTHAND CORNER-->
+<section id="cocurrent-section">
+
+<section class="cc-education">
+	<div class="cocurrent-circle cc1">25</div>
+	<div class="cocurrent-circle cc2">27</div>
+
+	<section id="cocurrent-text">
+	<h7>JOB</h7>
+	<h7>DIVERSITY</h7>
+	</section>
+</section>
+
+<section class="cc-diversity">
+	<div class="cocurrent-circle cc3">72</div>
+	<div class="cocurrent-circle cc4">31</div>
+
+<section id="cocurrent-text">
+	<h7>LACK</h7>
+	<h7>WHITE</h7>
+</section>
+</section>
+
+<section class="cc-ethics">
+	<div class="cocurrent-circle cc5">17</div>
+	<div class="cocurrent-circle cc6">14</div>
+
+<section id="cocurrent-text">
+	<h7>EDUCATION</h7>
+	<h7>TECH</h7>
+</section>
+</section>
+
+<section class="cc-trends">
+	<div class="cocurrent-circle cc7">14</div>
+	<div class="cocurrent-circle cc8">20</div>
+
+<section id="cocurrent-text">
+	<h7>MEDIA</h7>
+	<h7>SOCIAL</h7>
+</section>
+</section>
+
+<section class="cc-women">
+	<div class="cocurrent-circle cc1">20</div>
+	<div class="cocurrent-circle cc2">19</div>
+
+<section id="cocurrent-text">
+	<h7>DIVERSITY</h7>
+	<h7>WHITE</h7>
+</section>
+</section>
+
+<section class="cc-acc">
+	<div class="cocurrent-circle cc1">12</div>
+	<div class="cocurrent-circle cc2">10</div>
+
+<section id="cocurrent-text">
+	<h7>EDUCATION</h7>
+	<h7>DIVERSITY</h7>
+</section>
+</section>
+
+<section class="cc-age">
+	<div class="cocurrent-circle cc1">10</div>
+	<div class="cocurrent-circle cc2">10</div>
+
+<section id="cocurrent-text">
+	<h7>CAREER</h7>
+	<h7>OLDER</h7>
+</section>
+</section>
+
+<section class="cc-white">
+	<div class="cocurrent-circle cc1">19</div>
+	<div class="cocurrent-circle cc2">18</div>
+
+<section id="cocurrent-text">
+	<h7>WOMEN</h7>
+	<h7>MEN</h7>
+</section>
+</section>
+
+<section class="cc-env">
+	<div class="cocurrent-circle cc1">41</div>
+	<div class="cocurrent-circle cc2">29</div>
+
+<section id="cocurrent-text">
+	<h7>IMPACT</h7>
+	<h7>SOCIAL</h7>
+</section>
+</section>
+
+<section class="cc-cap">
+	<div class="cocurrent-circle cc1">4</div>
+	<div class="cocurrent-circle cc2">7</div>
+
+<section id="cocurrent-text">
+	<h7>CLIMATE</h7>
+	<h7>CHANGE</h7>
+</section>
+</section>
+
+<section class="cc-aut">
+	<div class="cocurrent-circle cc1">6</div>
+	<div class="cocurrent-circle cc2">5</div>
+
+<section id="cocurrent-text">
+	<h7>EDUCATION</h7>
+	<h7>AI</h7>
+</section>
+</section>
+</section>
+
+<section id="map">
+       
+<section class="container a">
+<div class="c-1 cocurrent a"></div>
+</section>
+
+<section class="container b">
+<div class="c-2 cocurrent b"></div>
+</section>
+
+<section class="container e">
+<div class="c-3 cocurrent e"></div>
+</section>
+
+<section class="container f">
+<div class="c-4 cocurrent f"></div>
+</section>
+
+<section class="container g">
+<div class="c-5 cocurrent g"></div>
+</section>
+
+<section class="container h">
+<div class="c-6 cocurrent h"></div>
+</section>
+
+<section class="container i">
+<div class="c-7 cocurrent i"></div>
+</section>
+
+<section class="container j">
+<div class="c-8 cocurrent j"></div>
+</section>
+
+<section class="container k">
+<div class="c-9 cocurrent k"></div>
+</section>
+
+<section class="container l">
+<div class="c-10 cocurrent l"></div>
+</section>
+
+<section class="container m">
+<div class="c-11 cocurrent m"></div>
+</section>
+
+<section class="container o">
+<div class="c-12 cocurrent o"></div>
+</section>
+
+<section class="container p">
+<div class="c-13 cocurrent p"></div>
+</section>
+
+<section class="container q">
+<div class="c-14 cocurrent q"></div>
+</section>
+
+<section class="container r">
+<div class="c-15 cocurrent r"></div>
+</section>
+
+<!--education -->               
+<section class="container a">
+               
+<div class="outerblob-edu outerblob education"></div>
+<div class="innerblob-edu innerblob education"></div>
+<div class="blob-edu blob education"></div> 
+<div class="small-blob-edu small-blob education"></div>
+ 
+<section class="text-ctr education-text-container">
+<h6>214 responses</h6>
+              		
+       <h1 id="edu-h1">EDUCATION</h1>
+               		
+       <h2 class="h2-edu-50"><br>50+</h2>
+       <h2 class="h2-edu-40">40-49</h2>
+       <h2 class="h2-edu-30">30-39</h2>
+       <h2 class="h2-edu-20">>20</h2> 
+</section>
+</section>
+             
+<section class="container z">
+               
+<div class="outerblob-aut outerblob aut"></div>
+<div class="innerblob-aut innerblob aut"></div>
+<div class="blob-aut blob aut"></div> 
+<div class="small-blob-aut small-blob aut"></div>
+ 
+<section class="text-ctr aut-text-container">
+<h6>214 responses</h6>
+              		
+       <h1 id="aut-h1">AUTOMATION</h1>
+               		
+       <h2 class="h2-aut-50"><br>50+</h2>
+       <h2 class="h2-aut-40">40-49</h2>
+       <h2 class="h2-aut-30">30-39</h2>
+       <h2 class="h2-aut-20">>20</h2> 
+</section>
+</section>
+              
+<!--diversity -->            
+<section class="container b">
+	<div class="outerblob-div outerblob diversity"></div>
+	<div class="innerblob-div innerblob diversity"></div>
+	<div class="blob-div blob diversity"></div> 
+	<div class="small-blob-div small-blob diversity"></div>
+
+<section class="text-ctr div-text-container">
+<h6>211 responses</h6>
+              		
+		<h1 id="div-h1">DIVERSITY</h1>
+               		
+		<h2 class="h2-div-50"><br>50+</h2>
+		<h2 class="h2-div-40">40-49</h2>
+		<h2 class="h2-div-30">30-39</h2>
+		<h2 class="h2-div-20">>20</h2>
+</section>
+</section>
+
+<!--women -->                 
+<section class="container f">
+	<div class="outerblob-women outerblob women"></div>
+	<div class="innerblob-women innerblob women"></div>
+	<div class="blob-women blob women"></div> 
+	<div class="small-blob-women small-blob women"></div>
+
+<section class="text-ctr women-text-container">
+<h6>81 responses</h6>
+              		
+		<h1 id="women-h1">WOMEN</h1>
+               		
+		<h2 class="h2-women-50"><br>50+</h2>
+		<h2 class="h2-women-40">40-49</h2>
+		<h2 class="h2-women-50">30-39</h2>
+		<h2 class="h2-women-20">>20</h2>
+</section>                		
+</section> 
+  
+<!-- ethics -->   
+<section class="container g">
+	<div class="outerblob-ethics outerblob ethics"></div>
+	<div class="innerblob-ethics innerblob ethics"></div>
+	<div class="blob-ethics blob ethics"></div> 
+    <div class="small-blob-ethics small-blob ethics"></div>
+
+<section class="text-ctr ethics-text-container">
+<h6>81 responses</h6>
+              		
+		<h1 id="ethics-h1">ETHICS</h1>
+               		
+		<h2 class="h2-ethics-50"><br>50+</h2>
+		<h2 class="h2-ethics-40">40-49</h2>
+		<h2 class="h2-ethics-50">30-39</h2>
+		<h2 class="h2-ethics-20">>20</h2>
+</section>
+</section>
+            
+<!--accessibility -->              
+<section class="container h">
+ 	<div class="outerblob-acc outerblob accessibility"></div>
+	<div class="innerblob-acc innerblob accessibility"></div>
+ 	<div class="blob-acc blob accessibility"></div> 
+	<div class="small-blob-acc small-blob accessibility"></div>
+           
+           
+<section class="text-ctr acc-text-container">
+<h6>81 responses</h6>
+              		
+		<h1 id="acc-h1">ACCESSIBILITY</h1>
+               		
+		<h2 class="h2-acc-50"><br>50+</h2>
+		<h2 class="h2-acc-40">40-49</h2>
+		<h2 class="h2-acc-50">30-39</h2>
+		<h2 class="h2-acc-20">>20</h2>
+</section>           
+</section>
+            
+<!--environment -->             
+<section class="container i">
+	<div class="outerblob-env outerblob environment"></div>
+	<div class="innerblob-env innerblob environment"></div>
+	<div class="blob-env blob environment"></div> 
+	<div class="small-blob-env small-blob environment"></div>
+ 
+<section class="text-ctr env-text-container">
+<h6>81 responses</h6>        		
+		<h1 id="env-h1">ENVIRONMENT</h1>
+               		
+		<h2 class="h2-env-50"><br>50+</h2>
+		<h2 class="h2-env-40">40-49</h2>
+		<h2 class="h2-env-50">30-39</h2>
+		<h2 class="h2-env-20">>20</h2>
+</section>           
+</section>          
+
+<!--ageism -->                             
+<section class="container l">
+	<div class="outerblob-age outerblob ageism"></div>
+	<div class="innerblob-age innerblob ageism"></div>
+	<div class="blob-age blob ageism"></div> 
+	<div class="small-blob-age small-blob ageism"></div>
+<section class="text-ctr age-text-container">
+<h6>81 responses</h6>    		
+		<h1 id="age-h1">AGEISM</h1>
+               		
+		<h2 class="h2-age-50"><br>50+</h2>
+		<h2 class="h2-age-40">40-49</h2>
+		<h2 class="h2-age-50">30-39</h2>
+		<h2 class="h2-age-20">>20</h2>
+</section>
+</section>
+
+<!--white -->              
+<section class="container o">
+               <div class="outerblob-white outerblob white"></div>
+			   <div class="innerblob-white innerblob white"></div>
+               <div class="blob-white blob white"></div> 
+               <div class="small-blob-white small-blob white"></div>
+               
+<section class="text-ctr white-text-container">
+<h6>81 responses</h6>
+              		
+		<h1 id="white-h1">WHITE</h1>
+               		
+		<h2 class="h2-white-50"><br>50+</h2>
+		<h2 class="h2-white-40">40-49</h2>
+		<h2 class="h2-white-50">30-39</h2>
+		<h2 class="h2-white-20">>20</h2>
+</section>              
+</section>
+
+
+<!--trends -->       
+<section class="container p">
+	<div class="outerblob-trends outerblob trends"></div>
+	<div class="innerblob-trends innerblob trends"></div>
+	<div class="blob-trends blob trends"></div> 
+ 	<div class="small-blob-trends small-blob trends"></div>
+           
+<section class="text-ctr trends-text-container">
+<h6>81 responses</h6>
+              		
+		<h1 id="trends-h1">TRENDS</h1>
+               		
+		<h2 class="h2-trends-50"><br>50+</h2>
+		<h2 class="h2-trends-40">40-49</h2>
+		<h2 class="h2-trends-50">30-39</h2>
+		<h2 class="h2-trends-20">>20</h2>
+</section>             
+            </section>
+       
+<!--capitalism -->                 
+<section class="container s">
+              <div class="outerblob-cap outerblob capitalism"></div>
+			   <div class="innerblob-cap innerblob capitalism"></div>
+               <div class="blob-cap blob capitalism"></div> 
+               <div class="small-blob-cap small-blob capitalism"></div>
+               
+<section class="text-ctr cap-text-container">
+<h6>81 responses</h6>
+              		
+		<h1 id="cap-h1">CAPITALISM</h1>
+               		
+		<h2 class="h2-cap-50"><br>50+</h2>
+		<h2 class="h2-cap-40">40-49</h2>
+		<h2 class="h2-cap-50">30-39</h2>
+		<h2 class="h2-cap-20">>20</h2>
+</section>                 
+            </section>
+            
+
+<!--COCURRENT WORDS-->
+
+
+<section class="toggle-class">
+	<div class="toggle-p"><h10>PRESENT</h10></div>
+	<div class="toggle-slash"><h10>/</h10></div>
+	<div class="toggle-f"><h10>FUTURE</h10></div>
+</section>
+
+</section>
+  	
+<body>
+
+
+<!-- <div class="radial-test"></div>-->
+
+<div class="menu" style="display: none;">
+<i class="gg-chevron-left chev2"></i>
+<div class="menu-container-3">
+<div class="menu-text-3">
+
+<div class="txt-line-future txt-line-1-future">
+	<div class="txt-future txt-1-future">WHAT</div><div class="txt-future txt-2-future">IS</div>
+	<br>
+</div>	
+
+<div class="txt-line-future txt-line-2-future">	
+	<div class="txt-future txt-3-future">YOUR</div><div class="txt-future txt-4-future">DREAM</div><div class="txt-future txt-5-future">FOR</div>
+	<br>
+</div>
+
+<div class="txt-line-future txt-line-3-future">					
+	<div class="txt-future txt-6-future">THE</div><div class="txt-future txt-7-future">FUTURE</div> 
+	<br>
+</div>	
+
+<div class="txt-line-future txt-line-4-future">		
+	<div class="txt-future txt-8-future">OF</div><div class="txt-future txt-9-future">DESIGN?</div>
+</div>
+
+</div> 
+</div>
+
+<div class="start-typing">
+	[START TYPING ANYWHERE]
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/firebase@6.1.0/firebase.js"></script>
+
+   <div id="userResponse"></div>
+   <script src="sketch.js"></script>
+      <ol id="responseList">
+      </ol>
+
+</div>
+
+
+
+</body>
+
+ 
+ </html>
