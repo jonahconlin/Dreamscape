@@ -9,7 +9,7 @@
 	src: url("Cormorant-Light.otf");
 	  
 	font-family: "CirrusCumulus";
-	src: url("CirrusCumulus.otf");
+	src: url(fonts/CirrusCumulus.otf);
   }
   
   html {
@@ -68,7 +68,7 @@
 	  
 	  text-align: center;
 	 
-	  font-family: "Gotham";
+	  font-family: aktiv-grotesk, sans-serif;
 	  z-index: 500 !important;
 	  
 	  transition: 1s all;
@@ -631,7 +631,7 @@
 	  margin-top: 30px !important;
 	  margin: auto;
 	  font-size: 14px !important;
-	  font-family: 'Gotham-light';
+	  font-family: aktiv-grotesk, sans-serif;
 	  
 	  }
   
@@ -727,7 +727,7 @@
 	  z-index: 5;
 	  
 	  font-size: 14px !important;
-	  font-family: "Gotham-Light";
+	  font-family: aktiv-grotesk, sans-serif;
 	  color: white;
 	  }
   
@@ -737,25 +737,25 @@
 	  color: white;
 	  font-size: 16px;
 	  opacity: .5;
-	  font-family: "Gotham-Light";
+	  font-family: aktiv-grotesk, sans-serif;
 	  }
   
   h4 {
 	  margin: 0;
 	  font-size: 16px;
 	  color: white;
-	  font-family: "Gotham-Light";
+	  font-family: aktiv-grotesk, sans-serif;
 	  }
   
   h5 {
   /*	quotes*/
 	  margin-right: 40px;
 	  margin-bottom: 20px;
-	  float:center;
+	  float: center;
 	  display: inline-block;
 	  font-size: 18px !important;
 	  color: white;
-	  font-family: sans-serif;
+	  font-family: aktiv-grotesk, sans-serif;
 	  font-weight: 100;
 	  font-style: regular;
 	  }
@@ -904,7 +904,7 @@
 	  margin-top: 100px;
 	  position: absolute;
 	  z-index: 1;
-	  font-family: "CirrusCumulus";
+	  font-family: "CumulCirrusus";
 	  color: yellow;
 	  font-size: 100px;
 	  overflow:hidden;
@@ -1028,7 +1028,7 @@
 	  margin: 0 auto;
 	  position: absolute;
 	  float: bottom;
-	  font-family: 'gotham-light';
+	  font-family: aktiv-grotesk, sans-serif;
 	  color: yellow;
 	  }
   
@@ -1092,7 +1092,7 @@
 	  height: 50px;
 	  background-color: transparent;
 	  border: 1px solid yellow;
-	  font-family: "Gotham-light";
+	  font-family: aktiv-grotesk, sans-serif;
 	  padding-top: 15px;
 	  padding-bottom: 5px;
 	  color: yellow;
